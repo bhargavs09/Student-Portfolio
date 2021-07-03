@@ -39,7 +39,6 @@ head,body{
     .first a{display: none;}
     .first{display: flex;justify-content: center;}
     .first button{font-size: 200%;}
-    textarea{ width: 80%}
 }
 .menu-content{
     display: none;
@@ -213,37 +212,7 @@ p3{
     padding: 1%;
     border-radius: 8%;
     text-align: center;
-    /* #ff9100 */
 }
-/*
-.contactme{
-    margin: 0 10% 0 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.contactme form{
-    text-align: center;
-} 
-.contactme input{
-    font-size: 100%;
-    text-align: left;
-    border-radius: 8px;
-    border: 1px inset black;
-    padding: 2%;
-    box-sizing: border-box;
-    width: 80%;
-}
-.contactme textarea{
-    border-radius: 8px;
-    text-align: left;
-    padding: 2%;
-}
-.contactme button{
-    font-size: 100%;
-    border: solid 1px;
-}*/
 .last{
     display:flex;
     flex-direction: row;
@@ -255,4 +224,17 @@ p4{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
+}
+@media screen and (max-width:480px){
+    .menu-content{height: 70%;align-items: center;justify-content: space-evenly;align-content: space-between;}
+    .menu-content a{font-size: 100%;border: 1px solid black;padding: 2%; text-transform: uppercase; 
+        background-color: white;border-radius: 2em}
+    .second{flex-direction: column;}
+    .second img{max-width: 50%;}
+    .second .text{width: 50%;padding-top: 5%;}
+    .second .text1{flex-direction: row;justify-content:space-around;padding-top: 5%;}
+    p1{text-align: center;}
+    .s{flex-direction: column;align-items: center; align-content: center;padding-top: 5%;}
+    .s1,.s2,.s3{width:70%;align-items: stretch;}
+    .s3 li{width: 100%;}
 }
