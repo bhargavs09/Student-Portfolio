@@ -226,7 +226,7 @@ p4{
     background-color: black;
 }
 @media screen and (max-width:480px){
-    .menu-content{height: 70%;align-items: center;justify-content: space-evenly;align-content: space-between;}
+    .menu-content{height: 80%;align-items: center;justify-content: space-evenly;align-content: space-between;}
     .menu-content a{font-size: 100%;border: 1px solid black;padding: 2%; text-transform: uppercase; 
         background-color: white;border-radius: 2em}
     .second{flex-direction: column;}
